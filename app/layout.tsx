@@ -20,24 +20,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Bernie aka Birdbadas | EDM Artist',
   description: 'Official website of Bernie (Palle Bruun Pedersen), an EDM/electronic music artist from Viborg, Denmark. Stream music, book shows, and explore exclusive beats.',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+  generator: 'forgebuilds.online',
+
 }
 
 export const viewport: Viewport = {
