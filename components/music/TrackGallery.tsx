@@ -11,10 +11,10 @@ interface Track {
 }
 
 const tracks: Track[] = [
-  { id: '1', title: 'That Voice!', image: '/images/covers/ep1.JPG', year: 2024 },
-  { id: '2', title: 'Under the Sun!', image: '/images/covers/ep1.JPG', year: 2024 },
-  { id: '3', title: 'Sensual!', image: '/images/covers/ep1.JPG', year: 2024 },
-  { id: '4', title: 'Everybody Wants!', image: '/images/covers/ep1.JPG', year: 2024 },
+  { id: '1', title: 'That Voice!', image: '/images/covers/ep1.JPG', year: 2024, link: 'https://music.apple.com/ng/song/that-voice/1760311463' },
+  { id: '2', title: 'Under the Sun!', image: '/images/covers/ep1.JPG', year: 2024, link: 'https://music.apple.com/ng/album/under-the-sun-single/1760311461' },
+  { id: '3', title: 'Sensual!', image: '/images/covers/ep1.JPG', year: 2024, link: 'https://music.apple.com/ng/song/sensual/1760309588' },
+  { id: '4', title: 'Everybody Wants!', image: '/images/covers/ep1.JPG', year: 2024, link: 'https://music.apple.com/ng/album/everybody-wants-single/1760309586' },
 
 ]
 
@@ -35,7 +35,7 @@ export function TrackGallery() {
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-colors duration-300 flex items-center justify-center gap-2">
                   <PlatformButton
                     platform="spotify"
-                    href={`https://open.spotify.com/search/${encodeURIComponent(track.title)}`}
+                    href={track.link}
                   />
                 </div>
               </div>

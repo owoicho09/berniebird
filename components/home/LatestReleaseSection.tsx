@@ -6,29 +6,26 @@ import { PlatformButton } from '@/components/shared/PlatformButton'
 export function LatestReleaseSection() {
   const release = {
     title: 'Latest Release',
-    trackName: 'New EP Title',
+    trackName: 'The Birds!',
     artistName: 'Bernie aka Birdbadas',
     releaseDate: '2026',
-    coverImage: '/images/covers/cover1.jpg',
+    coverImage: '/images/covers/ep.jpg',
   }
 
   const streamingLinks = [
     {
       platform: 'spotify' as const,
-      href: 'https://open.spotify.com',
+      href: 'https://open.spotify.com/album/0dgpocTJJGIZxqHYHRnuPO?si=T3V5ftO0Qk-gLt8kXYHssw',
     },
     {
       platform: 'apple-music' as const,
-      href: 'https://music.apple.com',
+      href: 'https://music.apple.com/ng/album/the-birds-single/1890701895',
     },
     {
       platform: 'youtube' as const,
       href: 'https://music.youtube.com/channel/UCc9c4GAWF6tbSn5X_3M4jgQ',
     },
-    {
-      platform: 'deezer' as const,
-      href: 'https://www.deezer.com',
-    },
+
     {
       platform: 'soundcloud' as const,
       href: 'https://soundcloud.com',

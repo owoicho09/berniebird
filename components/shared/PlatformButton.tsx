@@ -33,15 +33,7 @@ const platformConfig = {
       </svg>
     ),
   },
-  'deezer': {
-    label: 'Deezer',
-    bgColor: 'bg-[#FF6B00]',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
-        <path d="M18.81 11.293H24v2.414h-5.19zm0 3.532H24v2.414h-5.19zM18.81 18.357H24v2.414h-5.19zM18.81 7.76H24v2.414h-5.19zM13.38 18.357h5.19v2.414h-5.19zM13.38 14.825h5.19v2.414h-5.19zM13.38 11.293h5.19v2.414h-5.19zM7.95 18.357h5.19v2.414H7.95zM7.95 14.825h5.19v2.414H7.95zM2.52 18.357h5.19v2.414H2.52zM0 18.357h2.28v2.414H0z"/>
-      </svg>
-    ),
-  },
+
   'soundcloud': {
     label: 'SoundCloud',
     bgColor: 'bg-[#FF7700]',

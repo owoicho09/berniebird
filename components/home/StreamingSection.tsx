@@ -16,10 +16,7 @@ export function StreamingSection() {
       platform: 'youtube' as const,
       href: 'https://music.youtube.com/channel/UCc9c4GAWF6tbSn5X_3M4jgQ',
     },
-    {
-      platform: 'deezer' as const,
-      href: 'https://www.deezer.com',
-    },
+
     {
       platform: 'soundcloud' as const,
       href: 'https://soundcloud.com',
