@@ -109,12 +109,24 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-border pt-8">
-          <p className="text-sm text-muted-foreground text-center">
-            © {new Date().getFullYear()} Bernie aka Birdbadas. All rights reserved.
-          </p>
-        </div>
+       {/* Bottom Bar */}
+<div className="border-t border-border pt-8">
+  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+
+    {/* Logo */}
+    <img
+      src="/echopluse-logo.jpg"   // put logo inside /public folder
+      alt="Echopluse Record Logo"
+      className="h-9 w-9 object-contain"
+    />
+
+    {/* Text */}
+    <p>
+      Sponsored by <span className="font-medium">Echopluse Record</span>
+    </p>
+
+  </div>
+</div>
       </div>
     </footer>
   )

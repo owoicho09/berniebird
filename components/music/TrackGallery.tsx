@@ -29,12 +29,13 @@ export function TrackGallery() {
                 <Image
                   src={track.image}
                   alt={track.title}
+
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-colors duration-300 flex items-center justify-center gap-2">
                   <PlatformButton
-                    platform="spotify"
+                    platform="apple-music"
                     href={track.link}
                   />
                 </div>

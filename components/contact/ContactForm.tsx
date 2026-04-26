@@ -164,25 +164,6 @@ export function ContactForm() {
           />
         </div>
 
-        <div>
-          <label htmlFor="budget" className="block text-sm font-semibold text-foreground mb-2">
-            Estimated Budget: ${(typeof window !== 'undefined' ? 2000 : 0).toLocaleString()}
-          </label>
-          <input
-            id="budget"
-            name="budget"
-            type="range"
-            min="500"
-            max="10000"
-            step="100"
-            defaultValue="2000"
-            className="w-full h-2 bg-border rounded-lg appearance-none cursor-pointer"
-          />
-          <div className="flex justify-between text-xs text-muted-foreground mt-2">
-            <span>$500</span>
-            <span>$10,000+</span>
-          </div>
-        </div>
 
         <div>
           <label htmlFor="message" className="block text-sm font-semibold text-foreground mb-2">

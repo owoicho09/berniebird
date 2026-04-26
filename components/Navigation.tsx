@@ -14,7 +14,6 @@ export function Navigation() {
     { href: '/', label: 'Home' },
     { href: '/music', label: 'Music' },
     { href: '/shows', label: 'Shows' },
-    { href: '/store', label: 'Store' },
     { href: '/contact', label: 'Booking' },
   ]
 
