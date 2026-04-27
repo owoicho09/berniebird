@@ -117,7 +117,7 @@ export function Footer() {
     <img
       src="/echopluse-logo.jpg"   // put logo inside /public folder
       alt="Echopluse Record Logo"
-      className="h-9 w-9 object-contain"
+  className="h-9 w-9 rounded-full object-contain bg-white p-0"
     />
 
     {/* Text */}
