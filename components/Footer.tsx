@@ -116,13 +116,13 @@ export function Footer() {
     {/* Logo */}
     <img
       src="/echopluse-logo.jpg"   // put logo inside /public folder
-      alt="Echopluse Record Logo"
+      alt="Echopluse Records. Logo"
   className="h-9 w-9 rounded-full object-contain bg-white p-0"
     />
 
     {/* Text */}
     <p>
-      Sponsored by <span className="font-medium">Echopluse Record</span>
+      Sponsored by <span className="font-medium">Echopluse Records.</span>
     </p>
 
   </div>

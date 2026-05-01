@@ -28,7 +28,7 @@ export function LatestReleaseSection() {
 
     {
       platform: 'soundcloud' as const,
-      href: 'https://soundcloud.com',
+      href: 'https://on.soundcloud.com/PwWmcNDFGMxtMMwBkL',
     },
   ]
 
