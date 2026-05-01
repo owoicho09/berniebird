@@ -53,7 +53,6 @@ const tracks: Track[] = [
     year: 2024,
     links: {
       appleMusic: 'https://music.apple.com/ng/song/sensual/1760309588',
-      soundcloud: 'https://on.soundcloud.com/PwWmcNDFGMxtMMwBkL',
     },
   },
   {
@@ -94,6 +93,34 @@ const tracks: Track[] = [
     links: {
       soundcloud:
         'https://soundcloud.com/birdbadas/friday-afternoon-freedownload?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    },
+  },
+  {
+    id: '8',
+    title: 'Under The Sun!',
+    image: '/images/covers/121.JPG',
+    year: 2024,
+    links: {
+      soundcloud:
+        'https://soundcloud.com/birdbadas/under-the-sun?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    },
+  },{
+    id: '9',
+    title: 'Drop. .This. .Fire. -Experimentalas',
+    image: '/images/covers/231.JPG',
+    year: 2024,
+    links: {
+      soundcloud:
+        'https://soundcloud.com/birdbadas/drop-this-fire-experimentalas?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    },
+  },{
+    id: '10',
+    title: 'Big Bada Boom!',
+    image: '/images/covers/333.JPG',
+    year: 2024,
+    links: {
+      soundcloud:
+        'https://soundcloud.com/birdbadas/big-bada-boom-re-mastered-free-download?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
     },
   },
 ]
@@ -243,7 +270,6 @@ function TrackCard({ track }: { track: Track }) {
       {/* Info */}
       <div>
         <h3 className="font-semibold text-sm truncate">{track.title}</h3>
-        <p className="text-xs text-muted-foreground">{track.year}</p>
       </div>
 
       {/* Platforms */}
